@@ -1,0 +1,200 @@
+.xinglu-header {
+    position: relative;
+    width: 1220px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+
+    height: 80px;
+    background-color: #fff;
+}
+
+#xinglu-header-logo {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    margin: 0;
+}
+
+#xinglu-header-logo img {
+    width: 164px;
+    height: 56px;
+}
+
+.xinglu-header-nav {
+    margin-left: 195px;
+    float: left;
+    height: 100%;
+}
+
+.xinglu-nav-item {
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 31px 0 0 5px;
+}
+
+.xinglu-nav-item a {
+    height: 18px;
+    padding: 8px 20px;
+    color: #4d4d4d;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.xinglu-nav-item .headactive {
+    height: 18px;
+    padding: 8px 20px;
+    background-color: #53c9a3;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.xinglu-nav-item a:hover {
+    height: 20px;
+    padding: 8px 20px;
+    background-color: #53c9a3;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.xinglu-header-search {
+    float: left;
+    position: relative;
+    margin: 23px 0 0 20px;
+}
+
+.xinglu-header-search input {
+    height: 34px;
+    background: #f3f3f3;
+    border-radius: 17px;
+    border: 0;
+    font-size: 16px;
+    padding-left: 21px;
+    outline: none;
+}
+
+.xinglu-header-search .btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 34px;
+    width: 40px;
+    border-radius: 17px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+.xinglu-header-control {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.xinglu-user {
+    height: 80px !important;
+    padding-top: 23px !important;
+    cursor: pointer;
+    width: 120px;
+
+}
+
+.xinglu-user .userName {
+    float: left;
+    font-size: 16px;
+    color: #4D4D4D;
+    padding-top: 10px !important;
+    margin-left: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 75px;
+}
+
+.xinglu-user .userAvater {
+    display: block;
+    float: left;
+    width: 39px;
+    height: 39px;
+}
+
+.xinglu-user .userAvater img {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+.xinglu-nav-right {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 26px;
+    margin-left: 20px;
+}
+
+.xinglu-nav-right span {
+    color: #4d4d4d;
+    cursor: pointer;
+}
+
+.xinglu-nav-right:last-child {
+    right: -10px;
+}
+
+.xinglu-nav-title {
+    position: relative;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.title {
+    height: 16px;
+    font-size: 16px;
+    color: #4d4d4d;
+    padding-left: 26px;
+}
+
+.xinglu-login {
+    padding-left: 26px;
+}
+
+.xinglu-nav-icon {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.xinglu-nav-daili-icon { 
+    background-size: 20px 20px;
+}
+
+.xinglu-nav-chongzhi-icon {
+    background-size: 20px 20px;
+}
+
+.xinglu-nav-login-icon {
+    background-size: 20px 20px;
+}
+
+.xinglu-nav-login-l {
+    padding-right: 3px;
+}
+/* 通用头部样式E */
