@@ -2,6 +2,7 @@
     <div>
         <Header></Header>
         <Banner></Banner>
+        
     </div>
 </template>
 
